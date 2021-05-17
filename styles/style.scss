@@ -1,5 +1,7 @@
-header{
-    background-color: lightblue;
-    display: flex;
-    justify-content: center;
+
+@import './variables';
+@import './header';
+
+.contact button{
+    background: $primaryBtn;
 }
